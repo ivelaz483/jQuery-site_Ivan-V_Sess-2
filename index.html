@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.theme.css">
+    <link rel="stylesheet" href="jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion();
+  } );
+  </script>
+
+<script>
+    $( function() {
+      $( "#progressbar" ).progressbar({
+        value: false
+      });
+    } );
+    </script>
+
+<script>
+    $( function() {
+      $( "#progressbar2" ).progressbar({
+        value: false
+      });
+    } );
+    </script>
+
+<script>
+    $( function() {
+      $( "#progressbar3" ).progressbar({
+        value: false
+      });
+    } );
+    </script>
+
+<!--script>
+    $( function() {
+      $( "#dialog" ).dialog();
+    } );
+    </script-->
+
+<script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Festive&family=Montagu+Slab&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website jQuery</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="flex-container">
+        <div><a href="#home".asp>Home</a></div>
+        <div><a href="#faq">FAQ</a></div>
+        <div><a href="#hr2">Reservation</a></div>
+    </div>
+</nav>
+
+<header>
+    <!--img src="jpan.jpg" id="image1"/>
+    <h1>Cool Website</h1-->
+    <div class="container">
+        <img src="cake.jpg" alt="cake" style="width:100%;" id="image1">
+        <div class="centered">Fine Dining</div>
+      </div> 
+
+      <div class="flex-container2" id="home">
+        <div><img src="cake2.jpg" alt="cake2" style="width:33%;" id="image2">
+        <p>Donec vel sollicitudin eros, sed condimentum sem. Nulla justo odio, semper vitae venenatis consequat, pulvinar non diam. Vivamus aliquam venenatis tortor, eget pellentesque sapien convallis sollicitudin. Vivamus et suscipit arcu. Curabitur posuere odio non eros sollicitudin tempus. Ut porttitor felis justo, in maximus ex cursus a. Integer ut dictum ante, non maximus nisi. </p></div>
+        <div><img src="cake2.jpg" alt="cake2" style="width:33%;" id="image2">
+        <p>Donec vel sollicitudin eros, sed condimentum sem. Nulla justo odio, semper vitae venenatis consequat, pulvinar non diam. Vivamus aliquam venenatis tortor, eget pellentesque sapien convallis sollicitudin. Vivamus et suscipit arcu. Curabitur posuere odio non eros sollicitudin tempus. Ut porttitor felis justo, in maximus ex cursus a. Integer ut dictum ante, non maximus nisi. </p></div>
+        <div><img src="cake2.jpg" alt="cake2" style="width:33%;" id="image2">
+        <P>Donec vel sollicitudin eros, sed condimentum sem. Nulla justo odio, semper vitae venenatis consequat, pulvinar non diam. Vivamus aliquam venenatis tortor, eget pellentesque sapien convallis sollicitudin. Vivamus et suscipit arcu. Curabitur posuere odio non eros sollicitudin tempus. Ut porttitor felis justo, in maximus ex cursus a. Integer ut dictum ante, non maximus nisi. </P></div>  
+      </div>
+
+<div id="progressbar">HTML</div>
+<div id="progressbar2">CSS</div>
+<div id="progressbar3">JavaScript</div>
+
+      <h1 id="faq">Frequently Asked Questions</h1>
+      <div id="accordion">
+        <h3>What are the current specials?</h3>
+        <div>
+          <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+          </p>
+          <ul>
+            <li>List item one</li>
+            <li>List item two</li>
+            <li>List item three</li>
+          </ul>
+        </div>
+        <h3>What are the different resturant positions?</h3>
+        <div>
+          <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+          </p>
+        </div>
+        <h3>What is the indoor seating like?</h3>
+        <div>
+          <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+          </p>
+        </div>
+        <h3>What is the outdoor seating like?</h3>
+        <div>
+          <p>
+          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+          mauris vel est.
+          </p>
+          <p>
+          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos.
+          </p>
+        </div>
+      </div>
+
+    <!--div id="dialog" title="Basic dialog">
+        <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the &apos;x&apos; icon.</p>
+      </div-->
+
+      <h1 id="hr2">Make a reservation</h1>
+
+<div class="flex-container3">
+  <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.0352827811894!2d-112.30076728468197!3d33.526468280752276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b40e310f5bd71%3A0x71ef257e80e57b80!2s6697%20N%20Glen%20Harbor%20Blvd%2C%20Glendale%2C%20AZ%2085307!5e0!3m2!1sen!2sus!4v1643069283925!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+  </iframe></div>
+  <div>
+    <p>First Name: <input type="text" ></p>
+    <p>Last Name: <input type="text" ></p>
+    <p>Phone Number: <input type="text" ></p>
+    <p>Date: <input type="text" id="datepicker"></p>
+    <p>Time: <input type="text" ></p>
+
+    <input type="submit" value="Submit" name="Submit"></input></div>  
+</div>
+          
+       
+</header>
+
+<footer>
+    <p>All Rights Reserved @2022</p>
+</footer>
+
+</body>
+</html>
